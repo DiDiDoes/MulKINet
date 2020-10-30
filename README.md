@@ -13,7 +13,7 @@ One important element for key-invariant CNN is frequential reception field 12. T
 
 An illustration of our network architecture can be seen in the following figure:
 
-![architecture](figures\architecture.JPG)
+![architecture](https://github.com/DiDiDoes/MulKINet/blob/main/figures/architecture.JPG)
 
 
 
@@ -70,9 +70,9 @@ Important options:
 	--train-ls		List of training set
 	--val-ls		List of validation set
 	--block			Building block: simple / bottleneck / wider
-	--ki-block-num	Number of key-invariant blocks
-	--no-chnlatt	Disable channel attention
-	--no-tempatt	Disable temporal attention
+	--ki-block-num	        Number of key-invariant blocks
+	--no-chnlatt	        Disable channel attention
+	--no-tempatt	        Disable temporal attention
 	--batchsize		Batch size for training
 	--max-epoch		Max number of training epochs
 	--gpu			ID of GPU(s) to use
@@ -90,8 +90,8 @@ Run evaluation.py for evaluation.
 Important options:
 	--data-dir		Directory of dataset
 	--test-ls		List of testing set
-	--model file	Model file to evaluate
-	--ki-block-num	Number of key-invariant blocks
+	--model file	        Model file to evaluate
+	--ki-block-num	        Number of key-invariant blocks
 	--gpu			ID of GPU(s) to use
 ```
 
